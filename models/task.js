@@ -8,9 +8,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Task.associate = function(models) {
     // associations can be defined here
-    associate: function(models) {
-      Task.belogsTo(models.User)
-    }
+    Task.belongsTo(models.User)
   };
   return Task;
 };
