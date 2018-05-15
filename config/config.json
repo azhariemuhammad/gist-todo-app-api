@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "ptlrcyxw",
+    "password": "B5KDjQPDsbZy9_UPk8xoMPv5F9IcVvhy",
+    "database": "ptlrcyxw",
+    "host": "pellefant.db.elephantsql.com",
+    "dialect": "postgres"
+  }
+}
