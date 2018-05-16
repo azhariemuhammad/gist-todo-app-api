@@ -3,7 +3,7 @@ const Task = require('../models').Task
 
 const create = (req, res) => {
     Task.create({
-        userId: req.body.userId,
+        UserId: req.body.UserId,
         name: req.body.name,
         priority: req.body.priority,
         location: req.body.location,
