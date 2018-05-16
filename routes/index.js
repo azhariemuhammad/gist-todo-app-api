@@ -1,8 +1,8 @@
 const userApi = require('./users')
-// const taskApi = require('./task')
+const taskApi = require('./tasks')
 
 
 module.exports = {
     userApi,
-    // taskApi
+    taskApi
 }

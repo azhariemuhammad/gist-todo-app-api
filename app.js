@@ -10,8 +10,9 @@ app.use(morgan('dev'))
 app.use(cors())
 
 
-const { userApi } = require('./routes/index')
+const { userApi, taskApi } = require('./routes/index')
 app.use('/api', userApi )
+app.use('/api', taskApi )
 
 app.get('/', function(req, res){
     res.send('hello world')
